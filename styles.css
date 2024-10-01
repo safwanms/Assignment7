@@ -1,0 +1,63 @@
+body{
+    border: aliceblue;
+    margin: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    background-color: white;
+    padding: 50px;
+    width: auto;
+}
+.one{
+    color: aqua;
+}
+.two{
+    font-weight: normal;
+    color: olive;
+}
+.three{
+    color: dimgray;
+    line-height: 1.7;
+}
+#firstbox{
+    background-color: rgb(69, 214, 214);
+    display: inline-block;
+    width: 350px;
+    padding: 40px;
+    
+}
+#secondbox{
+    background-color: cornflowerblue;
+    display: inline;
+    width: 350px;
+    padding: 50px;
+    
+    
+}
+.flex-container{
+    display: flex;
+    background-color: none;
+    flex-direction: row;
+    height: 300px;
+}
+li{
+    list-style-type: none;
+    line-height: 1.3;
+}
+.button {
+    background-color: rgb(173, 232, 57);
+    color: azure;
+    margin: 30px;
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+span {
+    font-size: medium;
+    font-weight: lighter;
+}
