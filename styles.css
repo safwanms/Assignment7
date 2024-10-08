@@ -1,52 +1,61 @@
-body{
-    border: aliceblue;
-    margin: 5px;
-    border-style: solid;
-    border-radius: 5px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-header{
+body{
+    font-family: "Karla", sans-serif;
+    height: 100vh;
+    font-size: 16px;
+}
+
+.header{
     background-color: white;
     padding: 50px;
-    width: auto;
+    height: 40%;
 }
+
 .one{
-    color: aqua;
+    color: rgb(29, 211, 211);
+    margin-bottom: 15px;
+    font-size: x-large;
 }
+
 .two{
-    font-weight: normal;
-    color: olive;
+    margin-bottom: 10px;
+    color: rgb(197, 197, 84);
 }
+
 .three{
     color: dimgray;
     line-height: 1.7;
+    font-weight: lighter;
 }
+
 #firstbox{
-    background-color: rgb(69, 214, 214);
-    display: inline-block;
-    width: 350px;
+    background-color: rgb(37, 189, 189);
+    width: 50%;
     padding: 40px;
     
 }
+
 #secondbox{
-    background-color: cornflowerblue;
-    display: inline;
-    width: 350px;
+    background-color: rgb(57, 210, 215);
+    width: 50%;
     padding: 50px;
-    
-    
 }
-.flex-container{
+
+.wrapper {
     display: flex;
-    background-color: none;
-    flex-direction: row;
-    height: 300px;
+    height: 60%;
 }
+
 li{
     list-style-type: none;
-    line-height: 1.3;
+    line-height: 1.4;
 }
+
 .button {
     background-color: rgb(173, 232, 57);
     color: azure;
@@ -57,7 +66,12 @@ li{
     border-radius: 5px;
     font-weight: bold;
 }
+
 span {
     font-size: medium;
     font-weight: lighter;
+}
+h3 {
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
